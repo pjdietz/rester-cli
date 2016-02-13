@@ -1,0 +1,40 @@
+{
+  "name": "rester-cli",
+  "version": "0.1.0",
+  "description": "Command line tool for making HTTP requests",
+  "main": "index.js",
+  "bin": {
+    "rester": "bin/cliapp.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "test/test-runner.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjdietz/rester-cli.git"
+  },
+  "keywords": [
+    "http",
+    "rest",
+    "cli"
+  ],
+  "author": "PJ Dietz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pjdietz/rester-cli/issues"
+  },
+  "homepage": "https://github.com/pjdietz/rester-cli#readme",
+  "dependencies": {
+    "rester-client": "github:pjdietz/rester-client#master",
+    "yargs": "^3.32.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0",
+    "tmp": "0.0.28"
+  }
+}
